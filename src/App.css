@@ -1,0 +1,22 @@
+:root{
+    --color-brand: #fc0101;
+}
+#root{
+    padding: 0;
+    border: 0;
+
+}
+body{
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+.card{
+    border: 0 !important;
+    border-radius: 0;
+}
+.page{
+    background-color: black !important;
+}
+.page-detail{
+    margin-bottom: 50vh !important;
+}

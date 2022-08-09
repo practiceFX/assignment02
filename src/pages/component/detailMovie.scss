@@ -1,0 +1,39 @@
+.detail-movie {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    padding: 24px !important;
+    background-color: black;
+    height: 60vh;
+
+    .inner-detail-movie {
+        height: 60vh;
+
+        .trailer {
+            >div {
+                height: 90%;
+            }
+        }
+    }
+
+    .infor {
+        .title {
+            color: white;
+        }
+    }
+
+    .line {
+        padding: 1px;
+        margin: 24px 0;
+        background-color: white;
+    }
+
+    .text {
+        color: white;
+    }
+
+    .overview {
+        margin: 12px 0;
+        font-size: 12px;
+    }
+}

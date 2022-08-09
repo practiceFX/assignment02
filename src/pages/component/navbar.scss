@@ -1,0 +1,40 @@
+.section-navbar {
+    border: 0 !important;
+    position: absolute !important;
+    width: 100%;
+    padding: 12px 24px;
+    background-color: transparent !important;
+    z-index: 10;
+
+    .inner-navbar {}
+
+
+    // section Logo
+    .navbar-brand {
+        >a {
+            text-decoration: none;
+            color: var(--color-brand);
+            font-weight: 800;
+            font-size: larger;
+        }
+    }
+
+    //end
+
+    //section search
+    .wrapper-navbar-search {
+        display: flex;
+
+        .navbar-search {
+            margin: auto 0 auto auto;
+
+            >a {
+                color: white !important;
+            }
+        }
+    }
+
+    //end
+
+
+}

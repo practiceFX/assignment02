@@ -1,0 +1,36 @@
+.seciton-banner {
+    position: relative;
+    border-radius: 0;
+    margin-bottom: 60px;
+
+    .card-img {
+        width: 100vw;
+        height: 90vh;
+        filter: brightness(50%);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .card-img-overlay {
+        height: fit-content;
+        margin-top: 90vh;
+        width: 50vw;
+        transform: translateY(-120%);
+        padding-inline: 24px;
+
+        .title,
+        .description {
+            color: white;
+        }
+    }
+
+    .btn-gr {
+        >button {
+            width: 150px;
+            margin-right: 10px;
+            background-color: #464e597b;
+            border: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.section-movieList {
+    background-color: black;
+    margin-bottom: 120px;
+
+    .title {
+        color: white;
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+    .box-image {
+        padding: 6px;
+
+        >button {
+            width: 100%;
+            height: 300px;
+            border: 0;
+            border-radius: 0;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+
+
+
+    .slick-slide:focus {
+        border: 0 !important;
+    }
+}
